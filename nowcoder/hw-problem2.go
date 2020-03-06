@@ -7,6 +7,9 @@ import (
 	"unicode"
 )
 
+// 在字符串中找出连续最长的数字串，如果存在长度相同的字符串，打印所有的字符串，并打印长度
+// abcd12345ed125ss123058789
+// 123058789, 9
 func main() {
 	var line string
 	scanner := bufio.NewScanner(os.Stdin)
@@ -27,8 +30,6 @@ func main() {
 	}
 }
 
-// abcd12345ed125ss123058789
-// 123058789, 9
 func solution(s string) []string {
 	strList := make([]string, 0)
 	maxLen := 0
