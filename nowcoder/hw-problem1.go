@@ -9,6 +9,7 @@ import (
     "bufio"
 )
 
+// 猴子吃桃。官方题解参考：leetcode #875
 func main() {
 	var line string
     scanner := bufio.NewScanner(os.Stdin)
