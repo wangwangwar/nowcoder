@@ -8,6 +8,7 @@ import (
 	"strings"
 )
 
+// 双列表元素分配
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 
@@ -39,6 +40,9 @@ func main() {
 	}
 }
 
+// @param as 列表a
+// @param bs 列表b
+// @return 最后两列表元素之和的差取正值
 func solution(as []int, bs []int) int {
 	var bigArray []int
 	var smallArray []int
