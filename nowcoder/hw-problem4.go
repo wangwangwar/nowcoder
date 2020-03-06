@@ -5,6 +5,7 @@ import (
     "strings"
 )
 
+// 货币转换
 func main() {
     var cnyToHkd int
     var usdToCny int
