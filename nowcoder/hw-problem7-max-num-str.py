@@ -1,3 +1,4 @@
+# 在字符串中找出连续最长的数字串
 def solution(s: str) -> str:
     tmpStr = ""
     maxStrList = [tmpStr]
